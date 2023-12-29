@@ -1,0 +1,143 @@
+*{
+    /* //regalrexnore */
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(176, 176, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con{
+    width:25%;
+    height: 60vh;
+    margin-top: 10%;;
+background-color:#eae0e0;
+border-radius: 30px;
+padding: 40px;
+justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.amount
+{     margin-top: 15px;
+    width:100%;
+    height:70px;
+    font-weight: 600;
+    
+}
+.amount p{
+    font-size:10px;
+    line-height:20px;
+  
+}
+.amount input{
+    width:100%;
+    margin: 2px;
+    border-radius:5px;
+    background-color: transparent;
+    height:50%;
+    border:1.5px solid #605d5d;
+}
+
+.drop-dwon
+{
+    width:90%;
+    display: flex;
+    margin-top:20px;
+    margin-bottom:40px;
+    justify-content: space-between;
+    border-radius:5px;
+    flex-direction: row;
+}
+.drop-dwon .from
+{
+    width:30%;
+    margin: none;
+   
+}
+.drop-dwon .from p{
+    font-size:10px;
+    font-weight: 800;
+
+    line-height:20px;
+}
+.drop-dwon .from .select-con
+{ border-radius:5px;
+    border:1px solid #605d5d;
+    height:32px;
+}
+.drop-dwon .from .select-con img
+{
+    
+    height: 30px;
+    width:30px;
+}
+.drop-dwon .from .select-con select
+{
+    border: none;
+    background-color: transparent;
+     
+      height: 30px;
+     width:50px;
+}
+
+.drop-dwon .to
+{  
+    width:30%;
+    margin: none;
+}
+.drop-dwon .to p{
+    font-weight: 800;
+    font-size:10px;
+    line-height:20px;
+}
+.drop-dwon .to .select-con
+{ border-radius:5px;
+    height: 30px;
+    border:1px solid #605d5d;
+}
+.drop-dwon .to .select-con img
+{
+    
+    height: 30px;
+    width:30px;
+}
+.drop-dwon .to .select-con select
+{ 
+   border: none;
+   background-color: transparent;
+     margin-top:1;
+     height: 30px;
+    width:45px;
+}
+.msg
+{
+    font-weight: 800;
+    font-size:15px;
+    line-height:20px; 
+}
+button
+{
+    width:100%;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 800px;
+    background-color:#a44378;
+    height:35px;
+    color: beige;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+.icon
+{
+    margin-top:25px;
+    font-size: 20px;
+    color:#605d5d
+}

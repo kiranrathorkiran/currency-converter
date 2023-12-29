@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-converter</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div class="con">
+        <h2>Currency-Converter</h2>
+      <form>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" value="1">
+        </div>
+        <div class="drop-dwon">
+            <div class="from">
+                <p>FORM</p>
+
+                <div class="select-con">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from">    </select>
+                </div>
+            </div>
+            <div class="icon"><i class="ri-arrow-left-right-line"></i></div>
+            <div class="to">
+                    <p>TO</p>
+                <div class="select-con">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select name="to"> </select>
+                </div>
+
+            </div>
+        </div>
+            <div class="msg">1USD = 80NIR</div>
+            <button>GET EXCHANGE RATE</button>
+        </div>
+      </form>
+    </div>
+    
+    <script src="conrtrylist.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
